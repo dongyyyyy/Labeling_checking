@@ -177,9 +177,9 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
 
     # 데이터 로드
-    target_file='04_2'
+    target_file='05_2'
     # 경로 설정
-    csv_path_1 = f'./labels/{target_file}_revised.csv'
+    csv_path_1 = f'./labels/{target_file}_csv_revised.csv'
     csv_path_2 = f'./labels/{target_file}_csv.csv'
     image_dir = f'./images/{target_file}/'  # 실제 이미지들이 저장된 폴더
     # output_dir = 'output_images'
